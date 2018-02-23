@@ -1,0 +1,22 @@
+.recipesContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+};
+
+.recipeContainer{
+    width: 30%;
+    height: 210px;
+    margin: 2px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.recipeContainerExpanded{
+    width: 30%;
+    margin: 2px;
+    border: 1px solid black;
+    height: auto;
+}

@@ -1,0 +1,120 @@
+{
+	"recipes": [{
+			"id": 1,
+			"name": "Beef Lasagne",
+			"ingredients": [
+				"mince",
+				"stock",
+				"pasta",
+				"sauce",
+				"tomatoes"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		},
+		{
+			"id": 2,
+			"name": "Chicken casserole",
+			"ingredients": [
+				"chicken",
+				"chicken stock",
+				"sauce",
+				"tomatoes"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		},
+		{
+			"id": 3,
+			"name": "Mushroom & potato soup",
+			"ingredients": [
+				"1 tbsp rapeseed oil",
+				"2 large onions",
+				"20g dried porcini mushrooms",
+				"3 tsp vegetable bouillon powder",
+				"300g chestnut mushrooms, chopped",
+				"3 garlic cloves, finely grated",
+				"300g potato finely diced",
+				"2 tsp fresh thyme",
+				"4 carrots, finely diced",
+				"2 tbsp chopped parsley",
+				"8 tbsp bio yogurt",
+				"55g walnut pieces"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		},
+		{
+			"id": 4,
+			"name": "Mushroom & potato soup",
+			"ingredients": [
+				"1 tbsp rapeseed oil",
+				"2 large onions",
+				"20g dried porcini mushrooms",
+				"3 tsp vegetable bouillon powder",
+				"300g chestnut mushrooms, chopped",
+				"3 garlic cloves, finely grated",
+				"300g potato finely diced",
+				"2 tsp fresh thyme",
+				"4 carrots, finely diced",
+				"2 tbsp chopped parsley",
+				"8 tbsp bio yogurt",
+				"55g walnut pieces"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		},
+		{
+			"id": 5,
+			"name": "Mushroom & potato soup",
+			"ingredients": [
+				"1 tbsp rapeseed oil",
+				"2 large onions",
+				"20g dried porcini mushrooms",
+				"3 tsp vegetable bouillon powder",
+				"300g chestnut mushrooms, chopped",
+				"3 garlic cloves, finely grated",
+				"300g potato finely diced",
+				"2 tsp fresh thyme",
+				"4 carrots, finely diced",
+				"2 tbsp chopped parsley",
+				"8 tbsp bio yogurt",
+				"55g walnut pieces"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		},
+		{
+			"id": 6,
+			"name": "Mushroom & potato soup",
+			"ingredients": [
+				"1 tbsp rapeseed oil",
+				"2 large onions",
+				"20g dried porcini mushrooms",
+				"3 tsp vegetable bouillon powder",
+				"300g chestnut mushrooms, chopped",
+				"3 garlic cloves, finely grated",
+				"300g potato finely diced",
+				"2 tsp fresh thyme",
+				"4 carrots, finely diced",
+				"2 tbsp chopped parsley",
+				"8 tbsp bio yogurt",
+				"55g walnut pieces"
+			],
+			"method": [
+				"first do this",
+				"secondly do that"
+			]
+		}
+	]
+}

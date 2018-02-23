@@ -1,6 +1,5 @@
-const initialState = {
-  myState: 'I AM THE STATE IN BOLD'
-};
+import recipes from '../../../recipes.json';
+const initialState = recipes;
 
 export default(state = initialState, action) => {
   switch(action.type){
