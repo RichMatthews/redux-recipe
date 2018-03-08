@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require ignore-styles setup.js --compilers js:babel-core/register 'src/**/*.spec.js'",
+    "test": "jest",
     "watch": "webpack --watch",
     "start": "node ./server/index.js"
   },
   "repository": {
     "type": "git"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(scss|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   },
   "author": "",
   "license": "ISC",
@@ -52,6 +57,7 @@
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.6",
     "react-router": "^2.8.1",
+    "react-transition-group": "^1.2.0",
     "redux": "^3.7.2",
     "webpack": "^1.12.2",
     "webpack-config": "^6.1.2"

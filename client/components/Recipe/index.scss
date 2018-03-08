@@ -1,0 +1,26 @@
+.recipeContainer{
+  display: flex;
+  width: 90%;
+  max-height: 231px;
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+  }
+  .recipeImage{
+    object-fit: cover;
+  }
+}
+
+h4{
+  margin-bottom: 25px;
+}
+
+.detailsBtnContainer{
+  position: relative;
+  top: 193px;
+  z-index: 1;
+  left: 73%;
+}
+
+.button{
+  display: none;
+}

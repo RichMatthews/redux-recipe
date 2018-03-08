@@ -1,7 +1,14 @@
 import React from 'react';
+import './index.scss';
 
-const component = () => (
-  <input placeholder="Search for a recipe or ingredient" />
+const component = ({ term, handleTermInput, name }) => (
+  <input
+    className="searchContainer"
+    placeholder="e.g. beef"
+    onChange={handleTermInput}
+    name={name}
+    term={term}
+  />
 )
 
 export default component;

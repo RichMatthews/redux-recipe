@@ -1,22 +1,40 @@
-.recipesContainer{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: auto;
-  width: 700px;
-};
-
-.recipeContainer{
-    width: 30%;
-    height: 210px;
-    margin: 2px;
-    border: 1px solid black;
-    overflow: scroll;
+body{
+  font-family: helvetica;
+  margin: 0;
 }
 
-.recipeContainerExpanded{
-    width: 30%;
-    margin: 2px;
-    border: 1px solid black;
-    height: auto;
+.mainContainer{
+  display: flex;
+  @media only screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.recipesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1189px;
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+  }
+};
+
+.searchInput{
+  width: 50%;
+  padding: 10px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  @media only screen and (max-width: 500px) {
+    width: 90%;
+  }
+}
+
+.recipeHeading{
+  margin-left: 10px;
+  @media only screen and (max-width: 500px) {
+    text-align: center;
+  }
 }

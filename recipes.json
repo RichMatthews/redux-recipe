@@ -1,7 +1,13 @@
 {
 	"recipes": [{
 			"id": 1,
+			"image": "/images/beefLasagne.jpeg",
 			"name": "Beef Lasagne",
+			"noIngredients": 9,
+			"prepTime": 30,
+			"cookingTime": 45,
+			"containsFruit":false,
+			"containsVegetables":true,
 			"ingredients": [
 				"mince",
 				"stock",
@@ -16,7 +22,13 @@
 		},
 		{
 			"id": 2,
+			"image": "/images/chickenCasserole.jpeg",
 			"name": "Chicken casserole",
+			"noIngredients": 12,
+			"prepTime": 50,
+			"cookingTime": 60,
+			"containsFruit": false,
+			"containsVegetables": false,
 			"ingredients": [
 				"chicken",
 				"chicken stock",
@@ -30,7 +42,13 @@
 		},
 		{
 			"id": 3,
+			"image": "/images/mushroomPotatoSoup.jpeg",
 			"name": "Mushroom & potato soup",
+			"noIngredients": 6,
+			"prepTime": 10,
+			"cookingTime": 15,
+			"containsFruit": false,
+			"containsVegetables": true,
 			"ingredients": [
 				"1 tbsp rapeseed oil",
 				"2 large onions",
@@ -52,7 +70,13 @@
 		},
 		{
 			"id": 4,
-			"name": "Mushroom & potato soup",
+			"image": "/images/beefPie.jpeg",
+			"name": "Beef Pie",
+			"noIngredients": 9,
+			"prepTime": 20,
+			"cookingTime": 25,
+			"containsFruit": true,
+			"containsVegetables": false,
 			"ingredients": [
 				"1 tbsp rapeseed oil",
 				"2 large onions",
@@ -74,29 +98,13 @@
 		},
 		{
 			"id": 5,
-			"name": "Mushroom & potato soup",
-			"ingredients": [
-				"1 tbsp rapeseed oil",
-				"2 large onions",
-				"20g dried porcini mushrooms",
-				"3 tsp vegetable bouillon powder",
-				"300g chestnut mushrooms, chopped",
-				"3 garlic cloves, finely grated",
-				"300g potato finely diced",
-				"2 tsp fresh thyme",
-				"4 carrots, finely diced",
-				"2 tbsp chopped parsley",
-				"8 tbsp bio yogurt",
-				"55g walnut pieces"
-			],
-			"method": [
-				"first do this",
-				"secondly do that"
-			]
-		},
-		{
-			"id": 6,
-			"name": "Mushroom & potato soup",
+			"image": "/images/spicedChickenSoup.jpeg",
+			"name": "Spiced Chicken Soup",
+			"noIngredients": 4,
+			"prepTime": 10,
+			"cookingTime": 15,
+			"containsFruit": false,
+			"containsVegetables": true,
 			"ingredients": [
 				"1 tbsp rapeseed oil",
 				"2 large onions",
